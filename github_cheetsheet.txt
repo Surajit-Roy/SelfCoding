@@ -1,0 +1,18 @@
+----CREATE REPOSITORY----
+git config --global user.name "Surajit-Roy"
+git config --global user.email "your-email@example.com"
+touch .gitignore
+git init
+git add .
+git commit -m "Initial Commit"
+git status # just to see
+git remote add origin <SSH url.git>
+ssh-keygen -t rsa -b 4096 -C "your-emil@example.com"
+tail <path to id_rsa.pub> #Add this key to your GitHub Account
+git push origin master
+
+----UPDATE REPOSITORY----
+git add .
+git commit -m "Added github_cheetsheet"	##for Adding file
+git commit -m "Added github_cheetsheet"	##for Deleting file
+git push origin master
