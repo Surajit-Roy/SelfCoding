@@ -22,6 +22,7 @@ int main(){
                     }
                 }
             }
+            
         }
         if(dp[n-1] != INT_MAX)
             cout << dp[n-1] << endl;
