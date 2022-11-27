@@ -16,5 +16,6 @@ int main(){
         sort(a, a+n);
         cout<< a[k-1] <<endl;
     }
+    
     return 0;
 }
