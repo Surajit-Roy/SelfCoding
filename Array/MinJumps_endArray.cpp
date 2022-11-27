@@ -21,8 +21,7 @@ int main(){
                         dp[i] = dp[j]+1;
                     }
                 }
-            }
-            
+            }   
         }
         if(dp[n-1] != INT_MAX)
             cout << dp[n-1] << endl;
