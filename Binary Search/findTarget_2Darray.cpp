@@ -64,13 +64,16 @@ bool search(int arr[][3], int n, int m, int target){
 int main(){
     int n = 3;
     int m = 3;
-    int target = 20;
+        
     int arr[3][3];
     for(int i=0; i<n; i++){
         for(int j=0; j<n; j++){
             cin>>arr[i][j];
         }
     }
+
+    int target;
+    cin >> target; 
     cout << search(arr, n, m, target) << endl;
 
     return 0;
