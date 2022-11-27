@@ -32,6 +32,7 @@ int main(){
         cout << s.top().first << " " << s.top().second << endl;
         s.pop();
     }
+    
     return 0;
 }
 
