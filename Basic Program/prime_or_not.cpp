@@ -17,3 +17,10 @@ int main(){
     }
     return 0;
 }
+
+// output:
+// Enter the Number to check Prime or Not-> 7
+// Number is Prime.
+
+// Enter the Number to check Prime or Not-> 9
+// Number is Not Prime.
